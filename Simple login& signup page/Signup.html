@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup page</title>
+    <link rel="stylesheet" href="../Css files/signup.css">
+</head>
+<body>
+    <header>
+        <h1>Sign Up</h1>
+        <p>Quick and easy.</p>
+    </header>
+    <div class="container">
+        <form action="">
+            <div class="form">
+                <div class="name">
+                    <input type="text" placeholder="FirstName">
+                </div> 
+                <div class="name">
+                    <input type="text" placeholder="LastName">
+                </div>
+            </div>
+            <div class="form">
+                <div class="pass">
+                    <input type="password" placeholder="Password" required>
+                </div>
+                <div class="pass">
+                    <input type="password" placeholder="Confirm Password" required>
+                </div>
+            </div>
+            <div class="form">
+                <div class="email">
+                    <input type="text" placeholder="example123@gmail.com">
+                </div>
+                <div class="date">
+                    <input type="date">
+                </div>
+            </div>
+            <br>
+            <div class="form">
+                <div class="gender">
+                    <label for="gender">Gender:-</label><br>
+                    <input type="radio">Female
+                    <input type="radio">Male
+                    <input type="radio">Custom
+                </div>
+                <br>
+                <div class="choice">
+                    <label for="status">Choose your education level:</label>
+                    <select name="education-level" id="education-level">
+                        <option value="elementary school">Elementary School</option>
+                        <option value="high-school">High-School</option>
+                        <option value="diploma">Diploma</option>
+                        <option value="bachelor">Bachelor's degree</option>
+                        <option value="master">Master's degree</option>
+                        <option value="phd">PHD</option>
+                    </select>
+                </div>
+                <div class="choice">
+                    <label for="clubs">Clubs/Organization:-</label> <br>
+                    <input type="checkbox">Anti-Corruption <br>
+                    <input type="checkbox">Charity <br>
+                    <input type="checkbox">Personal Development <br>
+                    <input type="checkbox">Literature & Art <br>
+                    <input type="checkbox">Others 
+                </div>
+                <br>
+            </div>
+            <div class="form">
+                <textarea name="" id="" placeholder="Say something"></textarea>
+            </div>
+            <br>
+            <div class="form">
+                <button type="reset" class="reset">Reset</button>
+                <button type="submit" class="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>

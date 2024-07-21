@@ -1,0 +1,44 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    font-style: italic;
+    background-color: rgb(172, 172, 150);
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+h1, h2{
+    text-align: center;
+    transform: translate(-50px, -50px);
+}
+
+.header {
+    padding-top: 100px;
+}
+.img img {
+    border-radius: 80%;
+    width: 150px;
+    height: 150px;
+    transform: translate(-50px, -50px);
+}
+.img, .form, .btn, a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+input, button, a {
+    line-height: 1.5rem;
+    transform: translate(-50px, -50px);
+}
+
+input {
+    width: 300px;
+    font-size: 1rem;
+}
+
+button {
+    width: 150px;
+    background-color: rgb(49, 45, 45);
+}
